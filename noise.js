@@ -42,9 +42,9 @@ $(document).ready( function() {
     audio_tag.play();  // command to play audio
   });
 
-  // $(".note.g").keydown(function(event){
-  //   alert("Test");
-  // });
+  $(".note.g").keydown(function(event){
+    alert("Test");
+  });
 
 });
 
